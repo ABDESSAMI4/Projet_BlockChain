@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset --network development",
+    "start": "npm start --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "web3": "^4.16.0"
+  }
+}
